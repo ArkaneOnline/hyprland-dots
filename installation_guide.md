@@ -53,3 +53,23 @@ rm -rf yay-git
 Once `yay` is installed, we can start installing the packages we need.
 
 ## Installing Hyprland
+Now we can begin installing Hyprland. Note, a lot of these packages are used by this config and can be swapped out as you please \
+For now, we'll just be installing a base set of packages Hyprland needs to function. \
+To install these packages, you can use the following command.
+```sh
+yay -S hyprland-git hyprpicker-git waybar-hyprland-git dunst nwg-look wf-recorder wlogout wlsunset
+```
+
+This is Hyprland plus a small set of applications to get us started. \
+The rest of the installation will be mostly stuff that these dotfiles have configurations for. 
+
+## Installing Dependencies + Fonts
+This section of the guide will cover some dependencies that are needed by these dotfiles. \
+This section also includes some fonts that are used by this config. \
+To install the dependencies, you can use the command below.
+```sh
+yay -S colord ffmpegthumbnailer gnome-keyring grimblast-git gtk-engine-murrine imagemagick kvantum pamixer playerctl polkit-kde-agent qt5-quickcontrols qt5-quickcontrols2 qt5-wayland qt6-wayland swaybg ttf-font-awesome tumbler ttf-jetbrains-mono ttf-icomoon-feather xdg-desktop-portal-hyprland-git xdotool xwaylandvideobridge-cursor-2-git cliphist qt5-imageformats qt5ct ttf-jetbrains-mono-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji
+```
+
+This is a big list of dependencies, but all of these are required by this configuration.
+

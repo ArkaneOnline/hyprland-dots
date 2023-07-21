@@ -19,4 +19,5 @@ keybinds
 prompt
 EOF
 
+neofetch
 # vim:ft=zsh:nowrap

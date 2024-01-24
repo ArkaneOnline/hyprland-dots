@@ -2,6 +2,7 @@
 ## Aliases
 ##
 
+alias metadata='exiftool -w txt -api LargeFileSupport=true'
 alias run='pnpm run'
 alias c="clear"
 alias q="exit"
